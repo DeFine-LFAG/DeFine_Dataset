@@ -1,14 +1,14 @@
 # DeFine_Dataset
-DeFine is a high-quality, hierarchically decomposed, and fine-grained annotated dataset specifically designed for long-form article generation (LFAG). It addresses key challenges such as maintaining logical consistency, comprehensive topic coverage, and narrative coherence across extended articles. The dataset includes detailed annotations at three main stages of long-form article generation: outline creation, reference retrieval and extraction, and question-answer data generation.
+We present a high-quality, hierarchically decomposed, and fine-grained annotated dataset specifically designed for long-form article generation (LFAG). It addresses key challenges such as maintaining logical consistency, comprehensive topic coverage, and narrative coherence across extended articles. The dataset includes detailed annotations at three main stages of long-form article generation: outline creation, reference retrieval and extraction, and question-answer data generation.
 
 ## Dataset Overview
 DeFine consists of three main types of data:
 
 **Outline Data**: Hierarchical outlines extracted from high-quality articles, providing a structured framework for article generation.
 
-**Abstract Set Data**: Summarized content from references, helping models generate concise summaries.
+**Summary Data**: Summarized content from references, helping models generate concise summaries.
 
-**Question-Answer Data**: Includes question-answer pairs generated from references, ensuring the content is both informative and contextually accurate.
+**RAG Data**: Includes question-answer pairs generated from references, ensuring the content is both informative and contextually accurate.
 
 ## Key Features
 **Multi-agent collaboration pipeline**: Four specialized agents contribute to dataset creation, including Data Miner, Cite Retriever, Q&A Annotator, and Data Cleaner.
@@ -24,7 +24,7 @@ The dataset is organized into the following categories:
 
 outline_data/
 
-abstract_set_data/
+summary_data/
 
-qa_data/
+rag_data/
 
